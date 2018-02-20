@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bola8Magica</string>
+    <string name="no_connection" >No hay conexion con el servidor</string>
+    <string name="bola">MAGIC 8 BALL</string>
+    <string name="pregunta">Escriba su pregunta</string>
+    <string name="usuario">Escriba su nombre</string>
+    <string name="boton">Preguntar</string>
+    <string name="error">Compruebe que todos los campos estan completos</string>
+</resources>

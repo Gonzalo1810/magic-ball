@@ -1,0 +1,71 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/bola"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="@string/usuario"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="@string/pregunta"/>
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/boton" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/error"
+        android:visibility="gone"/>
+
+</LinearLayout>
+
